@@ -196,13 +196,12 @@ nav a {
 
 /* Mobile tabs */
 @media (max-width: 768px) {
-  .tabs {
-    flex-direction: column;
+  .hero {
+    text-align: left;
   }
 
-  .tab-btn {
-    width: 100%;
-    text-align: left;
+  .hero h2 {
+    line-height: 1.25;
   }
 }
 
@@ -218,4 +217,30 @@ header h1 {
 /* Subtle divider effect */
 header {
   border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+}
+/* ---------- Hero Refinement ---------- */
+
+.hero h2 {
+  margin-bottom: 18px;
+}
+
+.hero p {
+  max-width: 640px;
+  margin-bottom: 30px;
+}
+
+/* Primary vs secondary action */
+.hero .button:first-of-type {
+  background: #38bdf8;
+}
+
+.hero .button:last-of-type {
+  background: transparent;
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
 }
