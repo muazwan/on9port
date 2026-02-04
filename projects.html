@@ -23,10 +23,10 @@
 
   <h2>Project Portfolio</h2>
 
-  <div style="margin: 30px 0;">
-    <button class="button" onclick="showTab('highlight')">Highlights</button>
-    <button class="button" onclick="showTab('infra')">Infrastructure</button>
-    <button class="button" onclick="showTab('systems')">Systems</button>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab('highlight', this)">Highlights</button>
+    <button class="tab-btn" onclick="showTab('infra', this)">Infrastructure</button>
+    <button class="tab-btn" onclick="showTab('systems', this)">Systems</button>
   </div>
 
   <div id="highlight" class="card tab">
