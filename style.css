@@ -82,3 +82,90 @@ footer {
   color: #94a3b8;
   font-size: 14px;
 }
+
+/* ---------- Refinement Layer ---------- */
+
+/* Better reading rhythm */
+body {
+  line-height: 1.6;
+}
+
+/* Header refinement */
+header {
+  padding: 14px 24px;
+}
+
+/* Navigation spacing */
+nav a {
+  margin-left: 16px;
+  font-size: 15px;
+}
+
+/* Hero section tuning */
+.hero {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  letter-spacing: -0.5px;
+}
+
+.hero p {
+  font-size: 17px;
+}
+
+/* Buttons: more professional, less chunky */
+.button {
+  padding: 12px 22px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+/* Section headings */
+.section h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+/* Cards feel lighter */
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ---------- Mobile First ---------- */
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .container {
+    padding: 40px 16px;
+  }
+}
