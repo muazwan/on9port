@@ -16,11 +16,11 @@
 /* -------- Root Variables -------- */
 :root {
   /* Colors */
-  --bg-main: #0b0b0b;
-  --bg-surface: #111111;
-  --text-main: #e6e6e6;
-  --text-muted: #9a9a9a;
-  --accent: #b03030; /* resume-inspired red */
+  --bg-main: #151515;        /* main canvas (lighter) */
+  --bg-surface: #1c1c1c;     /* surfaces if needed */
+  --text-main: #f0f0f0;      /* primary text */
+  --text-muted: #b5b5b5;     /* secondary text */
+  --accent: #b03030;         /* resume red */
 
   /* Typography */
   --font-main: system-ui, -apple-system, BlinkMacSystemFont,
@@ -91,4 +91,18 @@ img {
 /* -------- Utility -------- */
 .hidden {
   display: none !important;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* subtle global texture */
+.site {
+  background: linear-gradient(
+    to bottom,
+    #181818 0%,
+    #151515 100%
+  );
 }
