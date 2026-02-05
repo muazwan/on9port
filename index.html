@@ -1,58 +1,82 @@
+<!----Redo-----!>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>John Doe | Professional Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Muaz Wan – Operations & Technology</title>
+
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/home.css">
 </head>
-  <!-- Wave Section -->
-<div class="wave-container">
-  <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-    <path d="M0,64 C120,96 240,32 360,32 C480,32 600,96 720,96 C840,96 960,32 1080,32 C1200,32 1320,96 1440,64 L1440,0 L0,0 Z"></path>
-  </svg>
-</div>
-  <!-- Cursor Glow -->
-<div class="cursor-glow"></div>
+
 <body>
 
-<header>
-  <h1>John Doe</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="experience.html">Experience</a>
-  </nav>
-</header>
+  <!-- Site Frame -->
+  <div class="site">
 
-<div class="container">
+    <!-- Header / Identity -->
+    <header class="site-header">
+      <div class="container">
+        <div class="identity">
+          <h1 class="name">Muaz Wan</h1>
+          <p class="role">Operations Manager · IT & Infrastructure</p>
+        </div>
 
-  <div class="hero">
-    <h2>Telecommunications & Infrastructure Professional</h2>
-    <p>
-      Experienced in delivering end-to-end technical solutions across
-      telecommunications, infrastructure deployment, and system integration.
-    </p>
-    <a class="button" href="projects.html">View Projects</a>
-    <a class="button" href="resume.pdf" target="_blank">View Resume</a>
+        <nav class="primary-nav">
+          <a href="index.html" class="active">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="resume.html">Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="site-main">
+
+      <!-- Overview Section -->
+      <section class="section overview">
+        <div class="container">
+          <p class="lead">
+            Professional profile overview.
+          </p>
+        </div>
+      </section>
+
+      <!-- Capability Snapshot -->
+      <section class="section capability">
+        <div class="container">
+          <h2>Scope</h2>
+          <div class="capability-grid">
+            <div class="cap-item">Operations & Project Management</div>
+            <div class="cap-item">IT Infrastructure & Networking</div>
+            <div class="cap-item">Procurement & Contract Handling</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Navigation CTA -->
+      <section class="section next">
+        <div class="container">
+          <a href="resume.html" class="primary-action">View Resume</a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© Muaz Wan</p>
+      </div>
+    </footer>
+
   </div>
 
-  <div class="section">
-    <h3>Core Competencies</h3>
-    <div class="card">
-      • Fiber & Network Infrastructure<br>
-      • Server & Switching Systems<br>
-      • Site Deployment & Field Operations<br>
-      • Technical Documentation & Reporting
-    </div>
-  </div>
-
-</div>
-
-<footer>
-  © 2026 John Doe · Hosted on GitHub Pages
-</footer>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
