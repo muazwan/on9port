@@ -1,0 +1,53 @@
+/* =========================================================
+   PROJECTS PAGE
+   Professional project register style.
+   No cards. No images. No decoration.
+   ========================================================= */
+
+.project-list {
+  margin-top: var(--space-xl);
+}
+
+/* -------- Project Item -------- */
+.project-item {
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* -------- Meta -------- */
+.project-meta {
+  display: flex;
+  gap: var(--space-md);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.project-value {
+  color: var(--accent);
+}
+
+/* -------- Title -------- */
+.project-title {
+  font-size: 1rem;
+  margin-bottom: var(--space-xs);
+}
+
+/* -------- Organization -------- */
+.project-org {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+/* -------- Description -------- */
+.project-desc {
+  font-size: 0.9rem;
+  line-height: var(--line-normal);
+}
