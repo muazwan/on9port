@@ -98,3 +98,51 @@
     gap: var(--space-sm);
   }
 }
+
+/* =========================================================
+   NAVIGATION POLISH
+   Clear state, calm behavior, accessible.
+   ========================================================= */
+
+/* Base nav links */
+.primary-nav a {
+  position: relative;
+  padding: 0.25rem 0;
+  transition: color 0.15s ease;
+}
+
+/* Hover */
+.primary-nav a:hover {
+  color: var(--text-main);
+}
+
+/* Active state */
+.primary-nav a.active {
+  color: var(--text-main);
+}
+
+/* Active indicator (subtle underline) */
+.primary-nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent);
+}
+
+/* Keyboard focus */
+.primary-nav a:focus-visible {
+  outline: none;
+}
+
+.primary-nav a:focus-visible::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.4rem;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent);
+}
