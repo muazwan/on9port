@@ -1,0 +1,40 @@
+/* =========================================================
+   HOME PAGE
+   Furniture layer for index.html only.
+   No layout skeleton changes here.
+   ========================================================= */
+
+/* -------- Overview -------- */
+.overview .lead {
+  max-width: 640px;
+  font-size: 1.05rem;
+  color: var(--text-main);
+}
+
+/* -------- Capability Section -------- */
+.capability-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.cap-item {
+  padding-left: var(--space-md);
+  border-left: 3px solid var(--accent);
+  font-size: 0.95rem;
+  line-height: var(--line-normal);
+}
+
+/* -------- Primary Action -------- */
+.primary-action {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.primary-action:hover {
+  background-color: rgba(176, 48, 48, 0.08);
+}
